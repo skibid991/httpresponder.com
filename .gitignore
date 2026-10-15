@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+page.png
+screenshot.png
+page.pdf

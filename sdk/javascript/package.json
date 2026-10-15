@@ -1,0 +1,29 @@
+{
+  "name": "httpresponder-client",
+  "version": "0.1.0",
+  "description": "Free HTTP request and response testing API. Decode base64 from a URL, echo requests, return custom status codes and headers, test redirects and streams.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "homepage": "https://httpresponder.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skibid991/httpresponder.com.git",
+    "directory": "sdk/javascript"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE"
+  ]
+}
